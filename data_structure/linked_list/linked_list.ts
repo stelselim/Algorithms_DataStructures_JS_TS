@@ -1,3 +1,5 @@
+export {};
+
 interface INode<T> {
   data: T;
   next: INode<T>;
@@ -106,4 +108,7 @@ list.deleteWithValue(55);
 
 list.print();
 console.log(list.search(152));
+console.log(list.search(12));
+console.log(list.search(112));
+console.log(list.search(115));
 console.log(list.size());
