@@ -21,7 +21,9 @@ function merge_sort(arr) {
   return merge(left, right);
 }
 
-const array1 = [1, 23, 5, 6, 7, 67, 331, 2, 3, 3, 35, 445, 25, 63, 25, 12, 123, 121, 45];
+const array1 = [
+  1, 23, 5, 6, 7, 67, 331, 2, 3, 3, 35, 445, 25, 63, 25, 12, 123, 121, 45,
+];
 
 const sorted = merge_sort(array1);
 console.log(sorted);
